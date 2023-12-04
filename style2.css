@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
+::selection {
+  background: #ff951380;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+
+  font-family: 'Titillium Web';
+
+}
+
+body { 
+  margin:0;
+  padding:0;
+  font-family: Titillium Web;
+  }
+
+
+#header {
+  background-color: rgb(0, 0, 0);
+
+}
+h4 {
+  font-family: 'Titillium Web';
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+.parallax {
+  position:relative;
+  z-index:1;
+  height:450px;
+  -webkit-box-shadow: inset 0px -6px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px -6px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px -6px 5px rgba(0, 0, 0, 0.75);
+}
+
+img {
+  border-radius: 25px;
+  border: solid orange 2px;
+}
+
+#trans1 {
+  background: url('img/rhine gorge.jpg') no-repeat fixed;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#trans2 {
+  background: url('img/museums in meinz.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#trans3 {
+  background: url('img/mannheim.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:550px;
+}
+
+#trans4 {
+  background: url('img/koblenz.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:550px;
+}
+
+#trans5 {
+  background: url('img/forest.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:550px;
+}
+
+#trans6 {
+  background: url('img/castle.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:550px;
+}
+
+
+.txt {
+  font-family: 'Gloria Hallelujah';
+  font-size:45px;
+  color:rgb(255, 255, 255);
+  width:auto;
+  background:rgba(200, 200, 200, 0.575);
+  padding:5px 10px;
+  visibility: hidden;
+}
+.txt.right {
+  margin: 150px 100px 0 0;
+  float:right;
+  text-align:right;
+}
+.txt.left {
+  float:left;
+  text-align:left;
+  margin: 150px 0 0 100px;
+}
+
+.txt.sub {
+  line-height:175%;
+  font-weight:lighter;
+  letter-spacing:1.5px;
+  background:#ccc;
+  background:rgba(200,200,200,0.60);
+  font-size:25px;
+  color:rgb(255, 255, 255);
+  margin: 0 100px 0 100px;
+}
+.content {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  position:relative;
+  z-index:2;
+  background-color:rgb(0, 0, 0);
+  width:100%;
+  color: white;
+  margin:0;
+  padding:10px 20px;
+  -webkit-box-shadow: 0px 6px 5px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 6px 5px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 6px 5px rgba(50, 50, 50, 0.75);
+
+}
+
+/*dont change pls*/
+
+.content.right {
+  text-align:right;
+}
+
+.content h2 { padding:0 25px; }
+.content p { padding:0 50px; }
+
+h2{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color:rgb(255, 255, 255);
+  font-weight: 400;
+}
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  pointer-events: none
+}
+#bottom {
+  background-color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  opacity: 1;
+  z-index: 98;
+  font-family: Titillium Web;
+  font-size: 25px;
+  color: white;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+#bottom a:visited {
+  color: white;
+}
+
+#bottom a {
+  text-decoration: none;
+  padding: 5px;
+  
+}
+
+#bottom a:hover {
+  text-decoration: underline;
+}
+
+.navlinks a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  opacity: 1;
+  z-index: 98;
+  border-bottom: solid orange 7px;
+  display: flex;
+}
+
+
+
+
+#header-logo {
+  font-family: Readex Pro;
+  font-size: 33px;
+  font-weight: bold;
+  justify-content: left;
+  color: white;
+  margin-left:50px;
+  right: 0;
+  padding-right:14.2vw;
+
+}
+
+#header-logo::after{
+  content: ".ML";
+  font-family: Titillium Web;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+
+
+.navlinks {
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+}
+.navlinks a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0px 10px;
+  font-size: 25px;
+  font-family: Titillium Web;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  align-items: center; 
+  
+}
+
+
+
+nav a:active {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 100px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: Readex Pro;
+}
+
+p {
+  font-family: Readex Pro;
+  font-size: 25px;
+}
+
+h2 {
+  font-family: Bungee;
+  font-size: 25px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: solid orange 1px;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  border: none;
+}
+
+#myBtn:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#section2 {
+  background-color: black;
+}
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
